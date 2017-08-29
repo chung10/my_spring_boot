@@ -12,6 +12,7 @@ public class MyController {
     @RequestMapping(path="/hello")
     public String index() {
 //        return "Hello,Today is a nice day.";
+//        2222
         return  userService.getNames();
     }
 }
