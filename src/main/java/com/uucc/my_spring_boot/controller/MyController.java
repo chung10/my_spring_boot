@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
     @Autowired
     private UserService userService;
+
     @RequestMapping(path="/hello")
     public String index() {
 //        return "Hello,Today is a nice day.";
